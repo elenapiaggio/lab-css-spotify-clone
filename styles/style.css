@@ -4,6 +4,10 @@
   --color-gray: #1A1A1A;
 }
 
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 h1{
   font-size: 6rem;
 }
@@ -13,11 +17,12 @@ h2{
 }
 
 h3{
-  font-size: 2rem;;
+  font-size: 3rem;;
   color: var(--color-green);
 }
 
 .navbar-container{
+  padding: 2rem;
   display: flex;
   height: 100px;
   justify-content: space-between;  
@@ -30,7 +35,7 @@ h3{
 
 .menu-navbar{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 40%;
   padding: 10px;
@@ -38,6 +43,7 @@ h3{
 
 li{
   list-style: none;
+  font-size: 2rem;
 }
 
 .hero-section{
@@ -79,10 +85,71 @@ li{
     border: 3px solid var(--color-green);
 }
 
+.underline-white{
+  border: 3px solid var(--color-white);
+}
+
 p{
   font-size: 2rem;
 }
 
 .whats-spotify-container img{
-  width: 100px;
+  width: 30%;
+}
+
+.green-section{
+  background-color: var(--color-green);
+  display: flex;
+  flex:1;
+  width: 100%;
+  justify-content: space-around;
+  color: var(--color-white);
+}
+
+.green-section h3{
+  color: var(--color-white);
+  font-size: 4rem;
+}
+
+h4{
+  font-size: 3rem;
+}
+
+.article-right{
+  justify-content: flex-end;
+}
+
+.article-right img{
+  margin: 3rem;
+}
+
+.article-left{
+  font-size: 4rem;
+  display: flex;
+}
+
+.green-section-p{
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.footer-article p{
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.green-section-div-left{
+  flex: 7;
+}
+
+.div-spotify-icon{
+  display: flex;
+  flex: 3;
+  align-items: center;
+  flex:1;
+}
+
+.div-spotify-icon img{
+  width: 300px;
 }
